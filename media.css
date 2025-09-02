@@ -1,0 +1,184 @@
+@media(max-width:1280px) {
+    .ceoSec {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .ceoSecRight {
+        grid-column: span 2;
+    }
+}
+
+@media(max-width:1140px) {
+    .topSec li {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .midRight {
+        font-size: 30px;
+    }
+    .schoolSoft .top p {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:1020px) {
+    .historySection .timeline {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .webImg {
+        height: 300px;
+    }
+
+    .schoolSoft {
+        padding: 30px 60px;
+    }
+
+    .schoolSoft .top p {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:780px) {
+    .nav-links {
+        gap: 30px;
+    }
+
+    .ceoSecBox {
+        padding: 0;
+    }
+
+    .ctoSecBox {
+        padding: 0;
+    }
+
+    .gifSec {
+        grid-template-columns: 1fr;
+    }
+
+    .historySection .timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .reach-section {
+        flex-direction: column;
+    }
+
+    .reach-left p {
+        padding-bottom: 20px;
+    }
+
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .schoolSoft .top p {
+        font-size: 30px;
+    }
+
+    .schoolSoft .btm button {
+        font-size: x-large;
+    }
+}
+
+@media(max-width:580px) {
+    .nav-links {
+        position: absolute;
+        transform: translateX(100%);
+        right: 0;
+        top: 0;
+        display: none;
+        transition-duration: 300ms;
+        list-style: none;
+        flex-direction: column;
+        color: black;
+        background-color: rgba(0, 0, 0, 0.515);
+        width: 200px;
+        padding: 13px 56px 50px 50px;
+        z-index: 99;
+    }
+
+    .navbar {
+        padding: 15px 50px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .openClose {
+        transform: translateX(0%);
+        display: flex;
+    }
+
+    .cross {
+        display: block;
+    }
+
+    .topSec {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .topSec li {
+        font-size: 25px;
+        padding-bottom: 50px;
+    }
+
+    .schoolSoft {
+        padding: 30px 30px;
+    }
+
+    .schoolSoft .top p {
+        font-size: 17px;
+    }
+
+    .schoolSoft .btm button {
+        padding: 5px 10px;
+        width: 125px;
+        font-size: 16px;
+    }
+
+    .ceoSec {
+        grid-template-columns: 1fr;
+    }
+
+    .ceoSecRight {
+        grid-column: span 1;
+    }
+
+    .padding {
+        padding: 20px 20px;
+    }
+
+    .webImg {
+        height: 200px;
+    }
+
+    .historySection .timelineItem {
+        padding-bottom: 10px;
+    }
+
+    .gifSec p {
+        font-size: 20px;
+    }
+
+    .clients-grid {
+        grid-template-columns: 1fr;
+    }
+
+    footer .footerTop {
+        flex-direction: column;
+    }
+
+    .footerBtm {
+        flex-direction: column-reverse;
+    }
+}
