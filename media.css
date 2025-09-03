@@ -87,7 +87,7 @@
 @media(max-width:580px) {
     .nav-links {
         position: absolute;
-        transform: translateX(100%);
+        
         right: 0;
         top: 0;
         display: none;
@@ -110,11 +110,11 @@
     }
 
     .hide {
-        display: flex;
+        display: none;
     }
 
     .openClose {
-        transform: translateX(0%);
+        
         display: flex;
     }
 
